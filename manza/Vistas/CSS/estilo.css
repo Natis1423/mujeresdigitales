@@ -1,0 +1,215 @@
+* {
+    text-decoration: none;
+    color: black;
+}
+
+.header {
+    background-color: rgb(246, 242, 237);
+    height: 130px;
+    position: relative;
+
+}
+
+.b1 {
+    display: flow-root;
+    float: right;
+    color: black;
+    padding: 3% 3% 0 20px;
+
+}
+
+#logo {
+    float: left;
+    padding: 0 0 0 15px;
+    height: 130px;
+    width: 150px;
+}
+
+#inicia {
+    background-color: rgb(250, 204, 232);
+    text-align: center;
+    height: 7%;
+    padding-top: 2%;
+    width: 45%;
+    margin: 5% 50% 0 35%;
+    border-radius: 30px;
+    color: white;
+    font-size: 60px;
+}
+
+.formu {
+    position: absolute;
+    display: flow-root;
+    margin: 5% 40% 0 40%;
+    margin-bottom: 10%;
+
+
+
+}
+
+#servlabel {
+    display: flow-root;
+    margin-bottom: 5%;
+
+}
+
+#fechaHora{
+    border-radius: 20px;
+}
+
+
+#b2 {
+    height: 25px;
+    width: 300px;
+    margin-bottom: 3%;
+    border-radius: 30px;
+    color: black;
+ 
+
+}
+
+#video {
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+#image {
+    z-index: 2;
+    position: absolute;
+    display: flex;
+    left: 38%;
+    top: 60%;
+}
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto+Slab:wght@100&display=swap');
+
+#boton_delete{
+display:inline-block;
+padding:0.35em 1.2em;
+border:0.1em solid #FFFFFF;
+margin:0 0.3em 0.3em 0;
+border-radius:0.12em;
+box-sizing: border-box;
+text-decoration:none;
+font-family:'Roboto',sans-serif;
+font-weight:300;
+text-align:center;
+transition: all 0.2s;
+height: 28px;
+width: 30%;
+margin: 2%;
+margin-bottom: 3%;
+color: black;
+background-color: #d8cadb;
+
+}
+#boton_delete:hover{
+color:#000000;
+background-color:#FFFFFF;
+}
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+#formularioSeleccionServicio{
+}
+body{
+    background-color:#ecf8ff;
+}
+.body{
+background-color:#fec2d8 ;   
+height: 80%;
+width: 70%;
+margin: 5% 20% 0 10%;
+border-radius: 20px;
+box-shadow: 10px 5px 5px black;
+padding: 1% 5% 2% 25%;
+}
+#nusuario{
+padding-bottom: 2%;
+font-size: 50px;  
+font-family: "Roboto Slab", serif;
+font-optical-sizing: auto;
+font-weight: 200;
+font-style: normal;
+}
+#serv_select{
+     background-color: rgb(241, 226, 255);
+display:inline-block;
+padding:0.35em 1.2em;
+border-radius:0.12em;
+box-sizing: border-box;
+text-decoration:none;
+font-family:'Roboto',sans-serif;
+color:#000000;
+text-align:center;
+transition: all 0.2s;
+margin-left: 4%;
+border-radius: 5px;
+}
+#serv_select:hover{
+color:#ffffff;
+background-color:#b9b7b7;
+}
+#serv_disp{
+    background-color: rgb(241, 226, 255);
+display:inline-block;
+padding:0.35em 1.2em;
+border-radius:0.12em;
+box-sizing: border-box;
+text-decoration:none;
+font-family:'Roboto',sans-serif;
+color:#000000;
+text-align:center;
+transition: all 0.2s;
+margin-left: 4%;
+border-radius: 5px;
+}
+#serv_disp:hover{
+    color:#ffffff;
+    background-color:#b9b7b7;
+}
+#tabla_select{
+    background-color:#ddc1fa;
+    border:solid #000000;
+    margin-top: 2%;
+    width: 70%;
+    text-align: center;
+    height: 50%;
+    font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+
+}
+.formu1{
+    position: absolute;
+    display:flexbox;
+    align-items: center;
+    left: 40%;
+    margin: 2% 0 5% 0;
+}
+.Tipo_Documen{
+    margin: 2% 0 5% 0;
+}
+#boton{
+    background-color: rgb(248, 248, 248);
+    display:inline-block;
+    padding:0.35em 1.2em;
+    border-radius:0.12em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:'Roboto',sans-serif;
+    color:#000000;
+    text-align:center;
+    transition: all 0.2s;
+    margin: 4% 0 5% 0;
+    border-radius: 5px;
+}
+#boton:hover{
+    color:#ffffff;
+    background-color:#b9b7b7;
+}
